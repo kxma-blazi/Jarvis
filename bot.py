@@ -39,7 +39,7 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
                     "content": user_message,
                 },
             ],
-            model="llama-3.3-70b-versatile",
+            model="llama-3.1-70b-versatile",  # ใช้รุ่น Free Tier ที่เสถียรและรองรับแน่นอน
             temperature=0.7,
         )
 
