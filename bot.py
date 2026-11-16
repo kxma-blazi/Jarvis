@@ -8,7 +8,7 @@ logging.basicConfig(
     format="%(asctime)s - %(name)s - %(levelname)s - %(message)s", level=logging.INFO
 )
 
-TELEGRAM_TOKEN = "8912139236:AAGBfjRWRw1yAZNt7nBNCkpTkYkIG-3r5pU"
+TELEGRAM_TOKEN = "8912139236:AAegCTYfyu4F9XLaesaunNhT5mkfWmSF-2p4"
 GROQ_API_KEY = os.environ.get("GROQ_API_KEY", "")
 
 client = Groq(api_key=GROQ_API_KEY)
